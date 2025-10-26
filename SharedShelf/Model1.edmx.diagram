@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4db045c1e12d4f5e8ab90046489a2692" Name="Diagram1">
+        <EntityTypeShape EntityType="SharedShelfDBModel.category" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.items" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.request" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.request_status" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.transaction_status" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.transactions" Width="1.5" PointX="9.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.user_auth" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SharedShelfDBModel.users" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_items_category" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_items_users" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_request_items" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_request_request_status" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_request_users" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_transactions_request" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_transactions_transaction_status" ManuallyRouted="false" />
+        <AssociationConnector Association="SharedShelfDBModel.FK_users_user_auth" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
