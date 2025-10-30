@@ -12,7 +12,6 @@ namespace SharedShelf
 {
     public partial class AdminForm : Form
     {
-        private static SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
         private static users currentUser = null;
         public AdminForm(users user)
         {

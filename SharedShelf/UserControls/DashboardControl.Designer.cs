@@ -33,15 +33,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.total_user_panel = new System.Windows.Forms.Panel();
+            this.total_users_label = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.total_items_label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.total_transactions_label = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -88,13 +88,25 @@
             // total_user_panel
             // 
             this.total_user_panel.BackColor = System.Drawing.Color.AliceBlue;
-            this.total_user_panel.Controls.Add(this.label4);
+            this.total_user_panel.Controls.Add(this.total_users_label);
             this.total_user_panel.Controls.Add(this.panel3);
             this.total_user_panel.Controls.Add(this.label3);
             this.total_user_panel.Location = new System.Drawing.Point(24, 179);
             this.total_user_panel.Name = "total_user_panel";
             this.total_user_panel.Size = new System.Drawing.Size(278, 186);
             this.total_user_panel.TabIndex = 16;
+            // 
+            // total_users_label
+            // 
+            this.total_users_label.AutoSize = true;
+            this.total_users_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.total_users_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.total_users_label.Location = new System.Drawing.Point(77, 76);
+            this.total_users_label.Name = "total_users_label";
+            this.total_users_label.Size = new System.Drawing.Size(116, 89);
+            this.total_users_label.TabIndex = 17;
+            this.total_users_label.Text = "99";
+            this.total_users_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
@@ -116,22 +128,10 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Total Users";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label4.Location = new System.Drawing.Point(77, 76);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 89);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "99";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.AliceBlue;
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.total_items_label);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Location = new System.Drawing.Point(347, 179);
@@ -139,17 +139,17 @@
             this.panel1.Size = new System.Drawing.Size(278, 186);
             this.panel1.TabIndex = 19;
             // 
-            // label5
+            // total_items_label
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label5.Location = new System.Drawing.Point(77, 76);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 89);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "99";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.total_items_label.AutoSize = true;
+            this.total_items_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.total_items_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.total_items_label.Location = new System.Drawing.Point(77, 76);
+            this.total_items_label.Name = "total_items_label";
+            this.total_items_label.Size = new System.Drawing.Size(116, 89);
+            this.total_items_label.TabIndex = 17;
+            this.total_items_label.Text = "99";
+            this.total_items_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
@@ -174,7 +174,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.AliceBlue;
-            this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.total_transactions_label);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.label);
             this.panel4.Location = new System.Drawing.Point(662, 179);
@@ -182,17 +182,17 @@
             this.panel4.Size = new System.Drawing.Size(278, 186);
             this.panel4.TabIndex = 20;
             // 
-            // label7
+            // total_transactions_label
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label7.Location = new System.Drawing.Point(77, 76);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 89);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "99";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.total_transactions_label.AutoSize = true;
+            this.total_transactions_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.total_transactions_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.total_transactions_label.Location = new System.Drawing.Point(77, 76);
+            this.total_transactions_label.Name = "total_transactions_label";
+            this.total_transactions_label.Size = new System.Drawing.Size(116, 89);
+            this.total_transactions_label.TabIndex = 17;
+            this.total_transactions_label.Text = "99";
+            this.total_transactions_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel5
             // 
@@ -268,13 +268,13 @@
         private System.Windows.Forms.Panel total_user_panel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label total_users_label;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label total_items_label;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label total_transactions_label;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label8;

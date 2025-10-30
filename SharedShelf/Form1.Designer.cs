@@ -222,7 +222,6 @@
         private System.Windows.Forms.TextBox password_tb;
         private System.Windows.Forms.Label username_label;
         private System.Windows.Forms.Label password_label;
-        private UserControls.RegisterControl registerControl;
         private UserControls.RegisterControl registerControl1;
     }
 }
