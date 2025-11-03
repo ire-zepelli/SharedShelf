@@ -30,6 +30,17 @@ namespace SharedShelf.UserControls
             total_users_label.Text = totalUsers.ToString();
             total_items_label.Text = totalItems.ToString();
             total_transactions_label.Text = totalTransactions.ToString();
+
+            dataGridView1.DataSource = AdminForm.db.items
+                .Select(i => new
+                {
+                    i.item_id,
+                    i.owner_id,
+                    i.item_name,
+                    i.category_id,
+                    i.description
+                })
+                .ToList();
         }
     }
 }

@@ -49,9 +49,9 @@
             this.welcome_label = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dashboardControl1 = new SharedShelf.UserControls.DashboardControl();
             this.adminUsersControl1 = new SharedShelf.UserControls.AdminUsersControl();
             this.adminItemsControl1 = new SharedShelf.UserControls.AdminItemsControl();
-            this.dashboardControl1 = new SharedShelf.UserControls.DashboardControl();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -277,6 +277,14 @@
             this.panel2.Size = new System.Drawing.Size(116, 92);
             this.panel2.TabIndex = 1;
             // 
+            // dashboardControl1
+            // 
+            this.dashboardControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.dashboardControl1.Location = new System.Drawing.Point(365, 0);
+            this.dashboardControl1.Name = "dashboardControl1";
+            this.dashboardControl1.Size = new System.Drawing.Size(963, 811);
+            this.dashboardControl1.TabIndex = 4;
+            // 
             // adminUsersControl1
             // 
             this.adminUsersControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
@@ -292,14 +300,6 @@
             this.adminItemsControl1.Name = "adminItemsControl1";
             this.adminItemsControl1.Size = new System.Drawing.Size(963, 811);
             this.adminItemsControl1.TabIndex = 3;
-            // 
-            // dashboardControl1
-            // 
-            this.dashboardControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
-            this.dashboardControl1.Location = new System.Drawing.Point(365, 0);
-            this.dashboardControl1.Name = "dashboardControl1";
-            this.dashboardControl1.Size = new System.Drawing.Size(963, 811);
-            this.dashboardControl1.TabIndex = 4;
             // 
             // AdminForm
             // 
