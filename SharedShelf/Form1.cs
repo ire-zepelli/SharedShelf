@@ -15,7 +15,7 @@ namespace SharedShelf
 {
     public partial class Form1 : Form
     {
-        private static SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
+        static SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
         public Form1()
         {
             InitializeComponent();
@@ -64,5 +64,9 @@ namespace SharedShelf
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

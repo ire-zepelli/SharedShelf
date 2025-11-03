@@ -12,18 +12,20 @@ namespace SharedShelf.UserControls
 {
     public partial class DashboardControl : UserControl
     {
-        private static SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
-
+        //SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
         public DashboardControl()
         {
             InitializeComponent();
-            LoadDashboardData();
+            if (!System.ComponentModel.LicenseManager.UsageMode.Equals(System.ComponentModel.LicenseUsageMode.Designtime))
+            {
+                LoadDashboardData();
+            }
         }
 
         public void LoadDashboardData() { 
-            var totalUsers = database.users.Count();
-            var totalItems = database.items.Count();
-            var totalTransactions = database.transactions.Count();
+            var totalUsers = AdminForm.db.users.Count();
+            var totalItems = AdminForm.db.items.Count();
+            var totalTransactions = AdminForm.db.transactions.Count();
 
             total_users_label.Text = totalUsers.ToString();
             total_items_label.Text = totalItems.ToString();

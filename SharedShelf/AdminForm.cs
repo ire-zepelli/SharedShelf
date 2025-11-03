@@ -12,39 +12,46 @@ namespace SharedShelf
 {
     public partial class AdminForm : Form
     {
-        private static users currentUser = null;
+        public static SharedShelfDBEntities1 db = new SharedShelfDBEntities1();
+        private users currentUser = null;
         public AdminForm(users user)
         {
             InitializeComponent();
             currentUser = user;
+            LoadAdminSide();
         }
 
-        private void dashboard_btn_Onclick(object sender, EventArgs e)
+        public void LoadAdminSide()
         {
-            selected_panel.Location = new Point(15, 198);
+            MessageBox.Show("Welcome Admin: " + currentUser.first_name);
+        }
+
+        private void dashboard_click(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 233);
             dashboardControl1.BringToFront();
         }
 
-        private void users_btn_Onclick(object sender, EventArgs e)
+        private void items_click(object sender, EventArgs e)
         {
-            selected_panel.Location = new Point(15, 290);
-            adminUsersControl1.BringToFront();
-        }
-
-        private void items_btn_Onclick(object sender, EventArgs e)
-        {
-            selected_panel.Location = new Point(15, 387);
+            selected_panel.Location = new Point(24, 321);
             adminItemsControl1.BringToFront();
         }
 
-        private void settings_btn__Onclick(object sender, EventArgs e)
+        private void users_click(object sender, EventArgs e)
         {
-            selected_panel.Location = new Point(15, 628);
+            selected_panel.Location = new Point(24, 407);
+            adminUsersControl1.BringToFront();
         }
 
-        private void logout_btn_Onclick(object sender, EventArgs e)
+        private void settings_click(object sender, EventArgs e)
         {
-            selected_panel.Location = new Point(15, 723);
+            selected_panel.Location = new Point(24, 637);
+        }
+
+        private void logout_click(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 718);
         }
 
         private void AdminForm_Load(object sender, EventArgs e)
