@@ -12,7 +12,6 @@ namespace SharedShelf.UserControls
 {
     public partial class DashboardControl : UserControl
     {
-        //SharedShelfDBEntities1 database = new SharedShelfDBEntities1();
         public DashboardControl()
         {
             InitializeComponent();
