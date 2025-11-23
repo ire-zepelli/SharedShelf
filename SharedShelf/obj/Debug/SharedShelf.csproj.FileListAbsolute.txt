@@ -17,3 +17,4 @@ C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.csproj
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedSh.403C0A3B.Up2Date
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.exe
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.pdb
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.exe.config
