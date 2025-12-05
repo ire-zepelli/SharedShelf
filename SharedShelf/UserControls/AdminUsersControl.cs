@@ -171,7 +171,7 @@ namespace SharedShelf.UserControls
 
         private void updateUser_btn_Click(object sender, EventArgs e)
         {
-            string userID = search_tb.Text; // or whichever textbox stores user_id
+            string userID = search_tb.Text;
             string username = username_tb.Text;
             string first_name = fname_tb.Text;
             string last_name = lname_tb.Text;

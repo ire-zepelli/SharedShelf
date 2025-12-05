@@ -34,9 +34,6 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,7 +51,6 @@
             this.adminItemsControl1 = new SharedShelf.UserControls.AdminItemsControl();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -65,7 +61,6 @@
             this.panel1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel1.Controls.Add(this.selected_panel);
             this.panel1.Controls.Add(this.panel11);
-            this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel3);
@@ -81,7 +76,7 @@
             // 
             this.selected_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.selected_panel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.selected_panel.Location = new System.Drawing.Point(24, 718);
+            this.selected_panel.Location = new System.Drawing.Point(24, 233);
             this.selected_panel.Name = "selected_panel";
             this.selected_panel.Size = new System.Drawing.Size(10, 69);
             this.selected_panel.TabIndex = 21;
@@ -95,6 +90,7 @@
             this.panel11.Size = new System.Drawing.Size(292, 70);
             this.panel11.TabIndex = 20;
             this.panel11.Click += new System.EventHandler(this.logout_click);
+            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
             // panel12
             // 
@@ -117,38 +113,6 @@
             this.label5.TabIndex = 15;
             this.label5.Text = "Logout";
             this.label5.Click += new System.EventHandler(this.logout_click);
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.panel10);
-            this.panel9.Controls.Add(this.label4);
-            this.panel9.Location = new System.Drawing.Point(39, 636);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(292, 70);
-            this.panel9.TabIndex = 19;
-            this.panel9.Click += new System.EventHandler(this.settings_click);
-            // 
-            // panel10
-            // 
-            this.panel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel10.BackgroundImage")));
-            this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel10.Location = new System.Drawing.Point(3, 3);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(60, 60);
-            this.panel10.TabIndex = 2;
-            this.panel10.Click += new System.EventHandler(this.settings_click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label4.Location = new System.Drawing.Point(66, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 46);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Settings";
-            this.label4.Click += new System.EventHandler(this.settings_click);
             // 
             // panel7
             // 
@@ -285,6 +249,7 @@
             this.dashboardControl1.Name = "dashboardControl1";
             this.dashboardControl1.Size = new System.Drawing.Size(963, 811);
             this.dashboardControl1.TabIndex = 4;
+            this.dashboardControl1.Load += new System.EventHandler(this.dashboardControl1_Load);
             // 
             // adminUsersControl1
             // 
@@ -320,8 +285,6 @@
             this.panel1.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -339,9 +302,6 @@
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label welcome_label;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label3;

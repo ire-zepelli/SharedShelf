@@ -244,9 +244,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.label3.Location = new System.Drawing.Point(23, 411);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 35);
+            this.label3.Size = new System.Drawing.Size(103, 35);
             this.label3.TabIndex = 21;
-            this.label3.Text = "User Actions";
+            this.label3.Text = "Actions";
             // 
             // addUser_btn
             // 

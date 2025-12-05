@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MahApps.Metro.Controls.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,6 +53,13 @@ namespace SharedShelf
         private void logout_click(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 718);
+            string result = MessageBox.Show("Are you sure you want to logout?", "Logout", MessageBoxButtons.YesNo).ToString();
+            if (result == "No") {
+                return;
+            }
+            
+            new Form1().Show();
+            this.Close();
         }
 
         private void AdminForm_Load(object sender, EventArgs e)
@@ -60,6 +68,16 @@ namespace SharedShelf
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dashboardControl1_Load(object sender, EventArgs e)
         {
 
         }

@@ -18,3 +18,14 @@ C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedSh.403C0A3B.
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.exe
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.pdb
 C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.exe.config
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\ControlzEx.dll
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\MahApps.Metro.dll
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\ControlzEx.pdb
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\ControlzEx.xml
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\MahApps.Metro.pdb
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\MahApps.Metro.xml
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\bened\source\repos\SharedShelf\SharedShelf\obj\Debug\SharedShelf.UserControls.UserHomeControl.resources

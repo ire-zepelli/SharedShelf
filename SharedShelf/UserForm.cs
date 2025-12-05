@@ -20,9 +20,35 @@ namespace SharedShelf
             currentUser = user;
         }
 
-        private void UserForm_Load(object sender, EventArgs e)
+
+        private void label2_Click(object sender, EventArgs e)
         {
-            welcome_label.Text = "Welcome User " + currentUser.first_name + " " + currentUser.last_name + "!";
+
+        }
+
+        private void home_onClick(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 141);
+        }
+
+        private void shelf_onClick(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 228);
+        }
+
+        private void browse_onClick(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 314);
+        }
+
+        private void setting_onClick(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 640);
+        }
+
+        private void logout_onClick(object sender, EventArgs e)
+        {
+            selected_panel.Location = new Point(24, 721);
         }
     }
 }
