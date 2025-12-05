@@ -137,6 +137,12 @@
     <Compile Include="UserControls\DashboardControl.Designer.cs">
       <DependentUpon>DashboardControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\ItemCardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ItemCardControl.Designer.cs">
+      <DependentUpon>ItemCardControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\RegisterControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -190,6 +196,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\DashboardControl.resx">
       <DependentUpon>DashboardControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ItemCardControl.resx">
+      <DependentUpon>ItemCardControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\RegisterControl.resx">
       <DependentUpon>RegisterControl.cs</DependentUpon>

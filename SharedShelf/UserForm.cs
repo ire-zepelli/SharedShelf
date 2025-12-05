@@ -29,11 +29,13 @@ namespace SharedShelf
         private void home_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 141);
+            this.userHomeControl1.BringToFront();
         }
 
         private void shelf_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 228);
+            this.userSelfControl1.BringToFront();
         }
 
         private void browse_onClick(object sender, EventArgs e)
@@ -49,6 +51,11 @@ namespace SharedShelf
         private void logout_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 721);
+        }
+
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

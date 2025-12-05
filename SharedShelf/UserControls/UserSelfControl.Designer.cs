@@ -31,6 +31,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.add_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.itemCardControl1 = new SharedShelf.UserControls.ItemCardControl();
+            this.itemCardControl2 = new SharedShelf.UserControls.ItemCardControl();
+            this.itemCardControl3 = new SharedShelf.UserControls.ItemCardControl();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +50,7 @@
             // 
             // add_btn
             // 
-            this.add_btn.Location = new System.Drawing.Point(263, 33);
+            this.add_btn.Location = new System.Drawing.Point(263, 34);
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(89, 40);
             this.add_btn.TabIndex = 17;
@@ -55,10 +59,37 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Controls.Add(this.itemCardControl1);
+            this.flowLayoutPanel1.Controls.Add(this.itemCardControl2);
+            this.flowLayoutPanel1.Controls.Add(this.itemCardControl3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 132);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(891, 625);
             this.flowLayoutPanel1.TabIndex = 18;
+            // 
+            // itemCardControl1
+            // 
+            this.itemCardControl1.BackColor = System.Drawing.Color.White;
+            this.itemCardControl1.Location = new System.Drawing.Point(3, 3);
+            this.itemCardControl1.Name = "itemCardControl1";
+            this.itemCardControl1.Size = new System.Drawing.Size(891, 143);
+            this.itemCardControl1.TabIndex = 0;
+            // 
+            // itemCardControl2
+            // 
+            this.itemCardControl2.BackColor = System.Drawing.Color.White;
+            this.itemCardControl2.Location = new System.Drawing.Point(3, 152);
+            this.itemCardControl2.Name = "itemCardControl2";
+            this.itemCardControl2.Size = new System.Drawing.Size(891, 143);
+            this.itemCardControl2.TabIndex = 1;
+            // 
+            // itemCardControl3
+            // 
+            this.itemCardControl3.BackColor = System.Drawing.Color.White;
+            this.itemCardControl3.Location = new System.Drawing.Point(3, 301);
+            this.itemCardControl3.Name = "itemCardControl3";
+            this.itemCardControl3.Size = new System.Drawing.Size(891, 143);
+            this.itemCardControl3.TabIndex = 2;
             // 
             // UserSelfControl
             // 
@@ -70,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UserSelfControl";
             this.Size = new System.Drawing.Size(963, 811);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -80,5 +112,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button add_btn;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private ItemCardControl itemCardControl1;
+        private ItemCardControl itemCardControl2;
+        private ItemCardControl itemCardControl3;
     }
 }
