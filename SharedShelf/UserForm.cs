@@ -41,6 +41,7 @@ namespace SharedShelf
         private void browse_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 314);
+            this.userBrowseControl1.BringToFront();
         }
 
         private void setting_onClick(object sender, EventArgs e)

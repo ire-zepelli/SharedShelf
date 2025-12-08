@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.add_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.itemCardControl1 = new SharedShelf.UserControls.ItemCardControl();
             this.itemCardControl2 = new SharedShelf.UserControls.ItemCardControl();
             this.itemCardControl3 = new SharedShelf.UserControls.ItemCardControl();
@@ -62,10 +63,18 @@
             this.flowLayoutPanel1.Controls.Add(this.itemCardControl1);
             this.flowLayoutPanel1.Controls.Add(this.itemCardControl2);
             this.flowLayoutPanel1.Controls.Add(this.itemCardControl3);
+            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 132);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(891, 625);
             this.flowLayoutPanel1.TabIndex = 18;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 450);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(13, 11);
+            this.flowLayoutPanel2.TabIndex = 3;
             // 
             // itemCardControl1
             // 
@@ -93,8 +102,7 @@
             // 
             // UserSelfControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.add_btn);
@@ -115,5 +123,6 @@
         private ItemCardControl itemCardControl1;
         private ItemCardControl itemCardControl2;
         private ItemCardControl itemCardControl3;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }

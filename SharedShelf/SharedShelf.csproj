@@ -87,6 +87,24 @@
     <Compile Include="items.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="modals\AddItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modals\AddItemForm.Designer.cs">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modals\EditItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modals\EditItemForm.Designer.cs">
+      <DependentUpon>EditItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modals\RequestItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modals\RequestItemForm.Designer.cs">
+      <DependentUpon>RequestItemForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -131,6 +149,12 @@
     <Compile Include="UserControls\AdminUsersControl.Designer.cs">
       <DependentUpon>AdminUsersControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\BorrowCardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BorrowCardControl.Designer.cs">
+      <DependentUpon>BorrowCardControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\DashboardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -148,6 +172,12 @@
     </Compile>
     <Compile Include="UserControls\RegisterControl.Designer.cs">
       <DependentUpon>RegisterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserBrowseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserBrowseControl.Designer.cs">
+      <DependentUpon>UserBrowseControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UserHomeControl.cs">
       <SubType>UserControl</SubType>
@@ -179,6 +209,15 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="modals\AddItemForm.resx">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modals\EditItemForm.resx">
+      <DependentUpon>EditItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modals\RequestItemForm.resx">
+      <DependentUpon>RequestItemForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -194,6 +233,9 @@
     <EmbeddedResource Include="UserControls\AdminUsersControl.resx">
       <DependentUpon>AdminUsersControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BorrowCardControl.resx">
+      <DependentUpon>BorrowCardControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\DashboardControl.resx">
       <DependentUpon>DashboardControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\RegisterControl.resx">
       <DependentUpon>RegisterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserBrowseControl.resx">
+      <DependentUpon>UserBrowseControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserHomeControl.resx">
       <DependentUpon>UserHomeControl.cs</DependentUpon>
@@ -244,6 +289,7 @@
     <Content Include="assets\items_icon.png" />
     <Content Include="assets\logout_icon.png" />
     <Content Include="assets\magnifying-glass.png" />
+    <Content Include="assets\search_black.png" />
     <Content Include="assets\settings.png" />
     <Content Include="assets\users_icon.png" />
     <Content Include="Model1.Context.tt">
