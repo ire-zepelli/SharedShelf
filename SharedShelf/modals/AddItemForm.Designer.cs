@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.name_label = new System.Windows.Forms.Label();
             this.name_tb = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.category_box = new System.Windows.Forms.ComboBox();
             this.category_label = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,6 +51,17 @@
             this.panel1.Size = new System.Drawing.Size(672, 90);
             this.panel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.label1.Location = new System.Drawing.Point(30, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 23);
+            this.label1.TabIndex = 33;
+            this.label1.Text = "List New Item";
+            // 
             // name_label
             // 
             this.name_label.AutoSize = true;
@@ -68,17 +79,6 @@
             this.name_tb.Name = "name_tb";
             this.name_tb.Size = new System.Drawing.Size(180, 22);
             this.name_tb.TabIndex = 21;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label1.Location = new System.Drawing.Point(30, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 23);
-            this.label1.TabIndex = 33;
-            this.label1.Text = "List New Item";
             // 
             // category_box
             // 
@@ -163,6 +163,7 @@
             this.Controls.Add(this.name_tb);
             this.Controls.Add(this.panel1);
             this.Name = "AddItemForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SharedShelf - Add Item";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

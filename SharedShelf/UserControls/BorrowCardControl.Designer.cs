@@ -72,6 +72,7 @@
             this.button2.TabIndex = 24;
             this.button2.Text = "Borrow";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -100,7 +101,7 @@
             this.title_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.title_label.Location = new System.Drawing.Point(138, 4);
             this.title_label.Name = "title_label";
-            this.title_label.Size = new System.Drawing.Size(286, 60);
+            this.title_label.Size = new System.Drawing.Size(277, 59);
             this.title_label.TabIndex = 16;
             this.title_label.Text = "Harry Potter";
             // 

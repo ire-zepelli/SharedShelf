@@ -191,6 +191,12 @@
     <Compile Include="UserControls\UserSelfControl.Designer.cs">
       <DependentUpon>UserSelfControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UserSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserSettingsControl.Designer.cs">
+      <DependentUpon>UserSettingsControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserSelfControl.resx">
       <DependentUpon>UserSelfControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserSettingsControl.resx">
+      <DependentUpon>UserSettingsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>

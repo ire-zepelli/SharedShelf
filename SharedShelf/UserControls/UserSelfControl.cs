@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SharedShelf.modals;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace SharedShelf.UserControls
         public UserSelfControl()
         {
             InitializeComponent();
+        }
+
+        private void add_btn_Click(object sender, EventArgs e)
+        {
+            AddItemForm addItemForm = new AddItemForm();
+            addItemForm.ShowDialog();
         }
     }
 }

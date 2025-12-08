@@ -1,5 +1,4 @@
-﻿using SharedShelf.modals;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SharedShelf.UserControls
 {
-    public partial class UserHomeControl : UserControl
+    public partial class UserSettingsControl : UserControl
     {
-        public UserHomeControl()
+        public UserSettingsControl()
         {
             InitializeComponent();
-        }
-
-        private void add_btn_Click(object sender, EventArgs e)
-        {
-            new AddItemForm().ShowDialog();
         }
     }
 }

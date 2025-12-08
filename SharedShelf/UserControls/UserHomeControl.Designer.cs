@@ -32,14 +32,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.total_user_panel = new System.Windows.Forms.Panel();
-            this.total_users_label = new System.Windows.Forms.Label();
             this.welcome_label = new System.Windows.Forms.Label();
+            this.item_label = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.request_label = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.successful_label = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.add_btn = new System.Windows.Forms.Button();
@@ -75,23 +75,11 @@
             this.total_user_panel.BackColor = System.Drawing.Color.AliceBlue;
             this.total_user_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.total_user_panel.Controls.Add(this.welcome_label);
-            this.total_user_panel.Controls.Add(this.total_users_label);
+            this.total_user_panel.Controls.Add(this.item_label);
             this.total_user_panel.Location = new System.Drawing.Point(39, 445);
             this.total_user_panel.Name = "total_user_panel";
             this.total_user_panel.Size = new System.Drawing.Size(273, 144);
             this.total_user_panel.TabIndex = 17;
-            // 
-            // total_users_label
-            // 
-            this.total_users_label.AutoSize = true;
-            this.total_users_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.total_users_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.total_users_label.Location = new System.Drawing.Point(3, 0);
-            this.total_users_label.Name = "total_users_label";
-            this.total_users_label.Size = new System.Drawing.Size(116, 89);
-            this.total_users_label.TabIndex = 17;
-            this.total_users_label.Text = "99";
-            this.total_users_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // welcome_label
             // 
@@ -104,12 +92,24 @@
             this.welcome_label.TabIndex = 18;
             this.welcome_label.Text = "Items on Your Shelf";
             // 
+            // item_label
+            // 
+            this.item_label.AutoSize = true;
+            this.item_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.item_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.item_label.Location = new System.Drawing.Point(3, 0);
+            this.item_label.Name = "item_label";
+            this.item_label.Size = new System.Drawing.Size(116, 89);
+            this.item_label.TabIndex = 17;
+            this.item_label.Text = "99";
+            this.item_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.AliceBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.request_label);
             this.panel1.Location = new System.Drawing.Point(340, 447);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(268, 144);
@@ -126,24 +126,24 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Pending Requests";
             // 
-            // label3
+            // request_label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label3.Location = new System.Drawing.Point(3, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 89);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "99";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.request_label.AutoSize = true;
+            this.request_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.request_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.request_label.Location = new System.Drawing.Point(3, 0);
+            this.request_label.Name = "request_label";
+            this.request_label.Size = new System.Drawing.Size(116, 89);
+            this.request_label.TabIndex = 17;
+            this.request_label.Text = "99";
+            this.request_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.AliceBlue;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.successful_label);
             this.panel3.Location = new System.Drawing.Point(636, 447);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(270, 144);
@@ -160,17 +160,17 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "Successful Swaps";
             // 
-            // label5
+            // successful_label
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label5.Location = new System.Drawing.Point(3, 4);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 89);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "99";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.successful_label.AutoSize = true;
+            this.successful_label.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Bold);
+            this.successful_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.successful_label.Location = new System.Drawing.Point(3, 4);
+            this.successful_label.Name = "successful_label";
+            this.successful_label.Size = new System.Drawing.Size(116, 89);
+            this.successful_label.TabIndex = 17;
+            this.successful_label.Text = "99";
+            this.successful_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -202,6 +202,7 @@
             this.add_btn.TabIndex = 23;
             this.add_btn.Text = "Add Item";
             this.add_btn.UseVisualStyleBackColor = true;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
             // requests_btn
             // 
@@ -223,7 +224,7 @@
             // 
             // UserHomeControl
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
             this.Controls.Add(this.history_btn);
             this.Controls.Add(this.requests_btn);
@@ -253,14 +254,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel total_user_panel;
-        private System.Windows.Forms.Label total_users_label;
+        private System.Windows.Forms.Label item_label;
         private System.Windows.Forms.Label welcome_label;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label request_label;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label successful_label;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button add_btn;

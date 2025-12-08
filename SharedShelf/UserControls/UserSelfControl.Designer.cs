@@ -31,10 +31,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.add_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.itemCardControl1 = new SharedShelf.UserControls.ItemCardControl();
             this.itemCardControl2 = new SharedShelf.UserControls.ItemCardControl();
             this.itemCardControl3 = new SharedShelf.UserControls.ItemCardControl();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +57,7 @@
             this.add_btn.TabIndex = 17;
             this.add_btn.Text = "Add Item";
             this.add_btn.UseVisualStyleBackColor = true;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -68,13 +69,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(891, 625);
             this.flowLayoutPanel1.TabIndex = 18;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 450);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(13, 11);
-            this.flowLayoutPanel2.TabIndex = 3;
             // 
             // itemCardControl1
             // 
@@ -100,9 +94,16 @@
             this.itemCardControl3.Size = new System.Drawing.Size(891, 143);
             this.itemCardControl3.TabIndex = 2;
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 450);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(13, 11);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
             // UserSelfControl
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.add_btn);

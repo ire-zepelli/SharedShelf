@@ -206,6 +206,7 @@
             this.Controls.Add(this.name_tb);
             this.Controls.Add(this.panel1);
             this.Name = "RequestItemForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SharedShelf - Request Item";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
