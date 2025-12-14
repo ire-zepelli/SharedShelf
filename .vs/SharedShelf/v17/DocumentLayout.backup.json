@@ -3,36 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\bened\\source\\repos\\SharedShelf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\usersettingscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\usersettingscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\usersettingscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\userhomecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\userhomecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\userhomecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\userbrowsecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\userselfcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\userselfcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\borrowcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\borrowcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\borrowcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\borrowcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\userbrowsecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\userbrowsecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\itemcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\requestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\requestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\borrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\borrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\requestitemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\requestitemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\requestitemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\requestitemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\edititemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\edititemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\userbrowsecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\userbrowsecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\itemcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\itemcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\adminuserscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\adminuserscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\usercontrols\\historycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\historycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|C:\\Users\\bened\\source\\repos\\SharedShelf\\sharedshelf\\usercontrols\\userselfcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\usercontrols\\userselfcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|c:\\users\\bened\\source\\repos\\sharedshelf\\sharedshelf\\modals\\borrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BE3F6F-2A9B-40D7-8BCC-83EFCF87EECB}|SharedShelf\\SharedShelf.csproj|solutionrelative:sharedshelf\\modals\\borrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,53 +86,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserForm.cs",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserForm.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs",
-              "RelativeToolTip": "SharedShelf\\UserForm.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:05:56.81Z",
+              "DocumentIndex": 1,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "SharedShelf\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\Model1.Context.tt",
+              "RelativeToolTip": "SharedShelf\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-14T18:23:39.437Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemCardControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\ItemCardControl.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\ItemCardControl.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\ItemCardControl.cs [Design]",
-              "RelativeToolTip": "SharedShelf\\UserControls\\ItemCardControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:45:35.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserBrowseControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserBrowseControl.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs [Design]",
-              "RelativeToolTip": "SharedShelf\\UserControls\\UserBrowseControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:45:22.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserHomeControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserHomeControl.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserHomeControl.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserHomeControl.cs [Design]",
-              "RelativeToolTip": "SharedShelf\\UserControls\\UserHomeControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:45:09.098Z"
             },
             {
               "$type": "Document",
@@ -99,40 +110,216 @@
               "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserSettingsControl.cs [Design]",
               "RelativeToolTip": "SharedShelf\\UserControls\\UserSettingsControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:44:59.482Z"
+              "WhenOpened": "2025-12-14T18:22:41.27Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserForm.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs [Design]",
-              "RelativeToolTip": "SharedShelf\\UserForm.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "BorrowCardControl.cs",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "RelativeToolTip": "SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:43:44.017Z"
+              "WhenOpened": "2025-12-14T18:21:41.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminUsersControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\AdminUsersControl.cs",
-              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\AdminUsersControl.cs",
-              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\AdminUsersControl.cs [Design]",
-              "RelativeToolTip": "SharedShelf\\UserControls\\AdminUsersControl.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\Form1.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\Form1.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\Form1.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:48:54.442Z"
+              "WhenOpened": "2025-12-14T18:21:24.323Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UserSelfControl.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserSelfControl.cs",
               "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserSelfControl.cs",
               "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserSelfControl.cs [Design]",
               "RelativeToolTip": "SharedShelf\\UserControls\\UserSelfControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:45:06.453Z"
+              "WhenOpened": "2025-12-14T18:15:53.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserForm.cs [Design]*",
+              "RelativeToolTip": "SharedShelf\\UserForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:21:21.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserHomeControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserHomeControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserHomeControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserHomeControl.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\UserControls\\UserHomeControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:15:44.361Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserBrowseControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\UserControls\\UserBrowseControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:02:45.846Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BorrowCardControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\BorrowCardControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\BorrowCardControl.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\UserControls\\BorrowCardControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:02:59.955Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\RequestsForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\RequestsForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\RequestsForm.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\RequestsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:21:19.569Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestItemForm.cs",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\RequestItemForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\RequestItemForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\RequestItemForm.cs",
+              "RelativeToolTip": "SharedShelf\\modals\\RequestItemForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:20:56.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditItemForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\EditItemForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\EditItemForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\EditItemForm.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\modals\\EditItemForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:17:22.457Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddItemForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\AddItemForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\AddItemForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\AddItemForm.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\modals\\AddItemForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:20:50.012Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestItemForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\RequestItemForm.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\RequestItemForm.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\RequestItemForm.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\modals\\RequestItemForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:17:23.399Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Borrows.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\Borrows.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\Borrows.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\Borrows.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\modals\\Borrows.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:17:20.89Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserBrowseControl.cs",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "RelativeToolTip": "SharedShelf\\UserControls\\UserBrowseControl.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:09:56.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemCardControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\ItemCardControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\ItemCardControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\ItemCardControl.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\UserControls\\ItemCardControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:03:17.977Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HistoryControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\HistoryControl.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\UserControls\\HistoryControl.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\UserControls\\HistoryControl.cs [Design]",
+              "RelativeToolTip": "SharedShelf\\UserControls\\HistoryControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:03:16.453Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Borrows.cs",
+              "DocumentMoniker": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\Borrows.cs",
+              "RelativeDocumentMoniker": "SharedShelf\\modals\\Borrows.cs",
+              "ToolTip": "C:\\Users\\bened\\source\\repos\\SharedShelf\\SharedShelf\\modals\\Borrows.cs",
+              "RelativeToolTip": "SharedShelf\\modals\\Borrows.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T17:44:21.977Z",
+              "EditorCaption": ""
             }
           ]
         }

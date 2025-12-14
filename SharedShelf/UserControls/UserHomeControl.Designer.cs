@@ -45,6 +45,9 @@
             this.add_btn = new System.Windows.Forms.Button();
             this.requests_btn = new System.Windows.Forms.Button();
             this.history_btn = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.total_user_panel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -196,36 +199,74 @@
             // 
             // add_btn
             // 
+            this.add_btn.BackColor = System.Drawing.Color.SteelBlue;
+            this.add_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.add_btn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.add_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.add_btn.Location = new System.Drawing.Point(45, 680);
             this.add_btn.Name = "add_btn";
-            this.add_btn.Size = new System.Drawing.Size(267, 77);
+            this.add_btn.Size = new System.Drawing.Size(267, 46);
             this.add_btn.TabIndex = 23;
             this.add_btn.Text = "Add Item";
-            this.add_btn.UseVisualStyleBackColor = true;
+            this.add_btn.UseVisualStyleBackColor = false;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
             // requests_btn
             // 
+            this.requests_btn.BackColor = System.Drawing.Color.SteelBlue;
+            this.requests_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.requests_btn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.requests_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.requests_btn.Location = new System.Drawing.Point(340, 680);
             this.requests_btn.Name = "requests_btn";
-            this.requests_btn.Size = new System.Drawing.Size(268, 77);
+            this.requests_btn.Size = new System.Drawing.Size(267, 46);
             this.requests_btn.TabIndex = 24;
             this.requests_btn.Text = "Borrow Requests";
-            this.requests_btn.UseVisualStyleBackColor = true;
+            this.requests_btn.UseVisualStyleBackColor = false;
+            this.requests_btn.Click += new System.EventHandler(this.requests_btn_Click);
             // 
             // history_btn
             // 
+            this.history_btn.BackColor = System.Drawing.Color.SteelBlue;
+            this.history_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.history_btn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.history_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.history_btn.Location = new System.Drawing.Point(636, 680);
             this.history_btn.Name = "history_btn";
-            this.history_btn.Size = new System.Drawing.Size(270, 77);
+            this.history_btn.Size = new System.Drawing.Size(267, 46);
             this.history_btn.TabIndex = 25;
             this.history_btn.Text = "Borrow History";
-            this.history_btn.UseVisualStyleBackColor = true;
+            this.history_btn.UseVisualStyleBackColor = false;
+            this.history_btn.Click += new System.EventHandler(this.history_btn_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Location = new System.Drawing.Point(58, 689);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(261, 45);
+            this.panel4.TabIndex = 26;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Location = new System.Drawing.Point(347, 689);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(261, 45);
+            this.panel5.TabIndex = 27;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            this.panel6.Location = new System.Drawing.Point(645, 689);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(261, 45);
+            this.panel6.TabIndex = 28;
             // 
             // UserHomeControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.history_btn);
             this.Controls.Add(this.requests_btn);
             this.Controls.Add(this.add_btn);
@@ -236,8 +277,12 @@
             this.Controls.Add(this.total_user_panel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
             this.Name = "UserHomeControl";
             this.Size = new System.Drawing.Size(963, 811);
+            this.Load += new System.EventHandler(this.UserHomeControl_Load);
             this.total_user_panel.ResumeLayout(false);
             this.total_user_panel.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -267,5 +312,8 @@
         private System.Windows.Forms.Button add_btn;
         private System.Windows.Forms.Button requests_btn;
         private System.Windows.Forms.Button history_btn;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
     }
 }

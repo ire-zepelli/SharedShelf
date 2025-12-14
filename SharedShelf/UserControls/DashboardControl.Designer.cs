@@ -89,6 +89,7 @@
             // total_user_panel
             // 
             this.total_user_panel.BackColor = System.Drawing.Color.AliceBlue;
+            this.total_user_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.total_user_panel.Controls.Add(this.total_users_label);
             this.total_user_panel.Controls.Add(this.panel3);
             this.total_user_panel.Controls.Add(this.label3);
@@ -132,6 +133,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.AliceBlue;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.total_items_label);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label6);
@@ -175,6 +177,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.AliceBlue;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.total_transactions_label);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.label);
@@ -247,7 +250,7 @@
             // DashboardControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel4);
@@ -258,6 +261,7 @@
             this.Controls.Add(this.welcome_label);
             this.Name = "DashboardControl";
             this.Size = new System.Drawing.Size(963, 811);
+            this.Load += new System.EventHandler(this.DashboardControl_Load);
             this.total_user_panel.ResumeLayout(false);
             this.total_user_panel.PerformLayout();
             this.panel1.ResumeLayout(false);

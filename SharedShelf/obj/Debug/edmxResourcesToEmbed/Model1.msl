@@ -12,6 +12,7 @@
     <EntitySetMapping Name="items">
       <EntityTypeMapping TypeName="SharedShelfDBModel.items">
         <MappingFragment StoreEntitySet="items">
+          <ScalarProperty Name="is_available" ColumnName="is_available" />
           <ScalarProperty Name="item_id" ColumnName="item_id" />
           <ScalarProperty Name="owner_id" ColumnName="owner_id" />
           <ScalarProperty Name="item_name" ColumnName="item_name" />

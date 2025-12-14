@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SharedShelfDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="SharedShelfDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="category">
           <Key>
             <PropertyRef Name="category_id" />
@@ -22,6 +22,7 @@
           <Property Name="category_id" Type="int" Nullable="false" />
           <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="date_posted" Type="date" Nullable="false" />
+          <Property Name="is_available" Type="bit" />
         </EntityType>
         <EntityType Name="request">
           <Key>
@@ -102,7 +103,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_items_users">
-          <End Role="users" Type="Self.users" Multiplicity="1" />
+          <End Role="users" Type="Self.users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="items" Type="Self.items" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="users">
@@ -138,7 +141,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_request_users">
-          <End Role="users" Type="Self.users" Multiplicity="1" />
+          <End Role="users" Type="Self.users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="request" Type="Self.request" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="users">
@@ -174,7 +179,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_users_user_auth">
-          <End Role="user_auth" Type="Self.user_auth" Multiplicity="1" />
+          <End Role="user_auth" Type="Self.user_auth" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="users" Type="Self.users" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="user_auth">
@@ -228,8 +235,7 @@
             <End Role="users" EntitySet="users" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="SharedShelfDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -254,6 +260,7 @@
           <NavigationProperty Name="category" Relationship="Self.FK_items_category" FromRole="items" ToRole="category" />
           <NavigationProperty Name="users" Relationship="Self.FK_items_users" FromRole="items" ToRole="users" />
           <NavigationProperty Name="request" Relationship="Self.FK_request_items" FromRole="items" ToRole="request" />
+          <Property Name="is_available" Type="Boolean" />
         </EntityType>
         <EntityType Name="request">
           <Key>
@@ -489,6 +496,7 @@
           <EntitySetMapping Name="items">
             <EntityTypeMapping TypeName="SharedShelfDBModel.items">
               <MappingFragment StoreEntitySet="items">
+                <ScalarProperty Name="is_available" ColumnName="is_available" />
                 <ScalarProperty Name="item_id" ColumnName="item_id" />
                 <ScalarProperty Name="owner_id" ColumnName="owner_id" />
                 <ScalarProperty Name="item_name" ColumnName="item_name" />

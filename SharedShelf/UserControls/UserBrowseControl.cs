@@ -16,5 +16,10 @@ namespace SharedShelf.UserControls
         {
             InitializeComponent();
         }
+
+        private void UserBrowseControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

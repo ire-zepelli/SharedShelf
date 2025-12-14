@@ -25,6 +25,7 @@ namespace SharedShelf
         public int category_id { get; set; }
         public string description { get; set; }
         public System.DateTime date_posted { get; set; }
+        public Nullable<bool> is_available { get; set; }
     
         public virtual category category { get; set; }
         public virtual users users { get; set; }

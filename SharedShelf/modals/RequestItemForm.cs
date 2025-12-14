@@ -16,5 +16,10 @@ namespace SharedShelf.modals
         {
             InitializeComponent();
         }
+
+        private void cancel_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

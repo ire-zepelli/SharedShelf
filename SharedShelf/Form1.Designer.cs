@@ -77,7 +77,7 @@
             // 
             // username_tb
             // 
-            this.username_tb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.username_tb.BackColor = System.Drawing.Color.WhiteSmoke;
             this.username_tb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username_tb.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
@@ -99,7 +99,7 @@
             // 
             // password_tb
             // 
-            this.password_tb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.password_tb.BackColor = System.Drawing.Color.WhiteSmoke;
             this.password_tb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password_tb.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
@@ -150,7 +150,7 @@
             // username_label
             // 
             this.username_label.AutoSize = true;
-            this.username_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.username_label.BackColor = System.Drawing.Color.WhiteSmoke;
             this.username_label.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.username_label.Location = new System.Drawing.Point(819, 261);
@@ -162,7 +162,7 @@
             // password_label
             // 
             this.password_label.AutoSize = true;
-            this.password_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.password_label.BackColor = System.Drawing.Color.WhiteSmoke;
             this.password_label.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.password_label.Location = new System.Drawing.Point(817, 363);
@@ -173,8 +173,8 @@
             // 
             // registerControl1
             // 
-            this.registerControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
-            this.registerControl1.Location = new System.Drawing.Point(749, 0);
+            this.registerControl1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.registerControl1.Location = new System.Drawing.Point(743, 0);
             this.registerControl1.Name = "registerControl1";
             this.registerControl1.Size = new System.Drawing.Size(558, 815);
             this.registerControl1.TabIndex = 8;
@@ -184,7 +184,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1340, 810);
             this.Controls.Add(this.registerControl1);
             this.Controls.Add(this.password_label);

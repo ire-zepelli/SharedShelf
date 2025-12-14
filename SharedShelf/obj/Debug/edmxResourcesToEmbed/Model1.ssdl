@@ -17,6 +17,7 @@
     <Property Name="category_id" Type="int" Nullable="false" />
     <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="date_posted" Type="date" Nullable="false" />
+    <Property Name="is_available" Type="bit" />
   </EntityType>
   <EntityType Name="request">
     <Key>
@@ -97,7 +98,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_items_users">
-    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="users" Type="Self.users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="items" Type="Self.items" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="users">
@@ -133,7 +136,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_request_users">
-    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="users" Type="Self.users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="request" Type="Self.request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="users">
@@ -169,7 +174,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_users_user_auth">
-    <End Role="user_auth" Type="Self.user_auth" Multiplicity="1" />
+    <End Role="user_auth" Type="Self.user_auth" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="users" Type="Self.users" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="user_auth">

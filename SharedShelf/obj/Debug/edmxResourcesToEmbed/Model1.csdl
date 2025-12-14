@@ -21,6 +21,7 @@
     <NavigationProperty Name="category" Relationship="Self.FK_items_category" FromRole="items" ToRole="category" />
     <NavigationProperty Name="users" Relationship="Self.FK_items_users" FromRole="items" ToRole="users" />
     <NavigationProperty Name="request" Relationship="Self.FK_request_items" FromRole="items" ToRole="request" />
+    <Property Name="is_available" Type="Boolean" />
   </EntityType>
   <EntityType Name="request">
     <Key>

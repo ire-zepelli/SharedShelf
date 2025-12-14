@@ -41,5 +41,10 @@ namespace SharedShelf.UserControls
                 })
                 .ToList();
         }
+
+        private void DashboardControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

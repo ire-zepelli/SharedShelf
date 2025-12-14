@@ -18,6 +18,9 @@ namespace SharedShelf
         {
             InitializeComponent();
             currentUser = user;
+
+            this.userHomeControl2.SetUser(user);
+            this.userSelfControl1.SetUser(user);
         }
 
 
@@ -29,7 +32,7 @@ namespace SharedShelf
         private void home_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 141);
-            this.userHomeControl1.BringToFront();
+            this.userHomeControl2.BringToFront();
         }
 
         private void shelf_onClick(object sender, EventArgs e)

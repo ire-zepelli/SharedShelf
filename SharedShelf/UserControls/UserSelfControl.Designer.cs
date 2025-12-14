@@ -29,13 +29,11 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.add_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.itemCardControl1 = new SharedShelf.UserControls.ItemCardControl();
-            this.itemCardControl2 = new SharedShelf.UserControls.ItemCardControl();
-            this.itemCardControl3 = new SharedShelf.UserControls.ItemCardControl();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.add_btn = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.borrowed_btn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -49,68 +47,70 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "My Shelf";
             // 
-            // add_btn
-            // 
-            this.add_btn.Location = new System.Drawing.Point(263, 34);
-            this.add_btn.Name = "add_btn";
-            this.add_btn.Size = new System.Drawing.Size(89, 40);
-            this.add_btn.TabIndex = 17;
-            this.add_btn.Text = "Add Item";
-            this.add_btn.UseVisualStyleBackColor = true;
-            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
-            // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.itemCardControl1);
-            this.flowLayoutPanel1.Controls.Add(this.itemCardControl2);
-            this.flowLayoutPanel1.Controls.Add(this.itemCardControl3);
-            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 132);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(891, 625);
             this.flowLayoutPanel1.TabIndex = 18;
             // 
-            // itemCardControl1
+            // add_btn
             // 
-            this.itemCardControl1.BackColor = System.Drawing.Color.White;
-            this.itemCardControl1.Location = new System.Drawing.Point(3, 3);
-            this.itemCardControl1.Name = "itemCardControl1";
-            this.itemCardControl1.Size = new System.Drawing.Size(891, 143);
-            this.itemCardControl1.TabIndex = 0;
+            this.add_btn.BackColor = System.Drawing.Color.DodgerBlue;
+            this.add_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.add_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.add_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.add_btn.Location = new System.Drawing.Point(270, 39);
+            this.add_btn.Name = "add_btn";
+            this.add_btn.Size = new System.Drawing.Size(90, 29);
+            this.add_btn.TabIndex = 51;
+            this.add_btn.Text = "Add Item";
+            this.add_btn.UseVisualStyleBackColor = false;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
-            // itemCardControl2
+            // panel1
             // 
-            this.itemCardControl2.BackColor = System.Drawing.Color.White;
-            this.itemCardControl2.Location = new System.Drawing.Point(3, 152);
-            this.itemCardControl2.Name = "itemCardControl2";
-            this.itemCardControl2.Size = new System.Drawing.Size(891, 143);
-            this.itemCardControl2.TabIndex = 1;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Location = new System.Drawing.Point(276, 43);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(88, 29);
+            this.panel1.TabIndex = 52;
             // 
-            // itemCardControl3
+            // borrowed_btn
             // 
-            this.itemCardControl3.BackColor = System.Drawing.Color.White;
-            this.itemCardControl3.Location = new System.Drawing.Point(3, 301);
-            this.itemCardControl3.Name = "itemCardControl3";
-            this.itemCardControl3.Size = new System.Drawing.Size(891, 143);
-            this.itemCardControl3.TabIndex = 2;
+            this.borrowed_btn.BackColor = System.Drawing.Color.IndianRed;
+            this.borrowed_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.borrowed_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.borrowed_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.borrowed_btn.Location = new System.Drawing.Point(387, 39);
+            this.borrowed_btn.Name = "borrowed_btn";
+            this.borrowed_btn.Size = new System.Drawing.Size(141, 29);
+            this.borrowed_btn.TabIndex = 53;
+            this.borrowed_btn.Text = "Borrowed Items";
+            this.borrowed_btn.UseVisualStyleBackColor = false;
+            this.borrowed_btn.Click += new System.EventHandler(this.borrowed_btn_Click);
             // 
-            // flowLayoutPanel2
+            // panel2
             // 
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 450);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(13, 11);
-            this.flowLayoutPanel2.TabIndex = 3;
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel2.Location = new System.Drawing.Point(393, 43);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(138, 29);
+            this.panel2.TabIndex = 54;
             // 
             // UserSelfControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.borrowed_btn);
             this.Controls.Add(this.add_btn);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Name = "UserSelfControl";
             this.Size = new System.Drawing.Size(963, 811);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.UserSelfControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,11 +119,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button add_btn;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private ItemCardControl itemCardControl1;
-        private ItemCardControl itemCardControl2;
-        private ItemCardControl itemCardControl3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button add_btn;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button borrowed_btn;
+        private System.Windows.Forms.Panel panel2;
     }
 }

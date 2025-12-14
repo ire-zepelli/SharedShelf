@@ -48,9 +48,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.userHomeControl1 = new SharedShelf.UserControls.UserHomeControl();
-            this.userBrowseControl1 = new SharedShelf.UserControls.UserBrowseControl();
+            this.userHomeControl2 = new SharedShelf.UserControls.UserHomeControl();
             this.userSelfControl1 = new SharedShelf.UserControls.UserSelfControl();
+            this.userBrowseControl1 = new SharedShelf.UserControls.UserBrowseControl();
             this.userSettingsControl1 = new SharedShelf.UserControls.UserSettingsControl();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -265,13 +265,21 @@
             this.panel2.Size = new System.Drawing.Size(92, 74);
             this.panel2.TabIndex = 1;
             // 
-            // userHomeControl1
+            // userHomeControl2
             // 
-            this.userHomeControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
-            this.userHomeControl1.Location = new System.Drawing.Point(337, -2);
-            this.userHomeControl1.Name = "userHomeControl1";
-            this.userHomeControl1.Size = new System.Drawing.Size(1005, 814);
-            this.userHomeControl1.TabIndex = 2;
+            this.userHomeControl2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.userHomeControl2.Location = new System.Drawing.Point(360, 0);
+            this.userHomeControl2.Name = "userHomeControl2";
+            this.userHomeControl2.Size = new System.Drawing.Size(963, 811);
+            this.userHomeControl2.TabIndex = 5;
+            // 
+            // userSelfControl1
+            // 
+            this.userSelfControl1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.userSelfControl1.Location = new System.Drawing.Point(346, 1);
+            this.userSelfControl1.Name = "userSelfControl1";
+            this.userSelfControl1.Size = new System.Drawing.Size(996, 811);
+            this.userSelfControl1.TabIndex = 0;
             // 
             // userBrowseControl1
             // 
@@ -281,21 +289,13 @@
             this.userBrowseControl1.Size = new System.Drawing.Size(963, 811);
             this.userBrowseControl1.TabIndex = 3;
             // 
-            // userSelfControl1
-            // 
-            this.userSelfControl1.BackColor = System.Drawing.Color.White;
-            this.userSelfControl1.Location = new System.Drawing.Point(346, 1);
-            this.userSelfControl1.Name = "userSelfControl1";
-            this.userSelfControl1.Size = new System.Drawing.Size(996, 811);
-            this.userSelfControl1.TabIndex = 0;
-            // 
             // userSettingsControl1
             // 
-            this.userSettingsControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
-            this.userSettingsControl1.Location = new System.Drawing.Point(360, 3);
+            this.userSettingsControl1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.userSettingsControl1.Location = new System.Drawing.Point(360, 0);
             this.userSettingsControl1.Name = "userSettingsControl1";
             this.userSettingsControl1.Size = new System.Drawing.Size(963, 811);
-            this.userSettingsControl1.TabIndex = 4;
+            this.userSettingsControl1.TabIndex = 6;
             // 
             // UserForm
             // 
@@ -303,10 +303,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1340, 810);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.userHomeControl1);
-            this.Controls.Add(this.userBrowseControl1);
+            this.Controls.Add(this.userHomeControl2);
             this.Controls.Add(this.userSelfControl1);
             this.Controls.Add(this.userSettingsControl1);
+            this.Controls.Add(this.userBrowseControl1);
             this.Name = "UserForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SharedShelf";
@@ -348,9 +348,10 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label4;
-        private UserControls.UserHomeControl userHomeControl1;
         private UserControls.UserSelfControl userSelfControl1;
         private UserControls.UserBrowseControl userBrowseControl1;
+        private UserControls.UserHomeControl userHomeControl1;
+        private UserControls.UserHomeControl userHomeControl2;
         private UserControls.UserSettingsControl userSettingsControl1;
     }
 }
