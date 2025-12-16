@@ -33,13 +33,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.full_name_lb = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.address_lb = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.username_label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,41 +76,16 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.address_lb);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.username_label);
             this.panel1.Controls.Add(this.full_name_lb);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(32, 86);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(905, 439);
             this.panel1.TabIndex = 20;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label5.Location = new System.Drawing.Point(484, 343);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 38);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "12/12/12 ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label6.Location = new System.Drawing.Point(437, 305);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 38);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Created At:";
             // 
             // label3
             // 
@@ -159,17 +131,6 @@
             this.label2.TabIndex = 24;
             this.label2.Text = "Address:";
             // 
-            // username_label
-            // 
-            this.username_label.AutoSize = true;
-            this.username_label.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.username_label.Location = new System.Drawing.Point(439, 108);
-            this.username_label.Name = "username_label";
-            this.username_label.Size = new System.Drawing.Size(106, 23);
-            this.username_label.TabIndex = 23;
-            this.username_label.Text = "@boss_wally";
-            // 
             // UserSettingsControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -178,6 +139,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "UserSettingsControl";
             this.Size = new System.Drawing.Size(963, 811);
+            this.Load += new System.EventHandler(this.UserSettingsControl_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -191,9 +153,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label full_name_lb;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label username_label;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label address_lb;

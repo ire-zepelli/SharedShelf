@@ -16,12 +16,12 @@ namespace SharedShelf.modals
         private string connectionString = "Server=DESKTOP-KU0OPCN\\SQLEXPRESS;Initial Catalog=SharedShelfDB;Integrated Security=True;";
         private int borrowerID;
         private int itemID;
+
         public RequestItemForm(int borrowerID, int itemID)
         {
             InitializeComponent();
             this.borrowerID = borrowerID;
             this.itemID = itemID;
-
             LoadData();
         }
 
@@ -72,7 +72,6 @@ namespace SharedShelf.modals
             }
         }
 
-
         private void cancel_btn_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -80,7 +79,6 @@ namespace SharedShelf.modals
 
         private void RequestItemForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void confirm_btn_Click(object sender, EventArgs e)
@@ -94,18 +92,16 @@ namespace SharedShelf.modals
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                SqlTransaction transaction = null;
                 try
                 {
                     conn.Open();
-                    transaction = conn.BeginTransaction();
 
                     // 1. Insert new request
                     string insertRequestQuery = @"
                 INSERT INTO request (borrower_id, borrow_date, return_date, created_at, item_id, status_id)
                 VALUES (@borrowerID, @borrowDate, @returnDate, @createdAt, @itemID, @statusID)";
 
-                    SqlCommand insertCmd = new SqlCommand(insertRequestQuery, conn, transaction);
+                    SqlCommand insertCmd = new SqlCommand(insertRequestQuery, conn);
                     insertCmd.Parameters.AddWithValue("@borrowerID", borrowerID);
                     insertCmd.Parameters.AddWithValue("@borrowDate", DateTime.Now.Date);
                     insertCmd.Parameters.AddWithValue("@returnDate", returndate_box.Value.Date);
@@ -116,12 +112,9 @@ namespace SharedShelf.modals
 
                     // 2. Update item availability to 0 (not available)
                     string updateItemQuery = "UPDATE items SET is_available = 0 WHERE item_id = @itemID";
-                    SqlCommand updateCmd = new SqlCommand(updateItemQuery, conn, transaction);
+                    SqlCommand updateCmd = new SqlCommand(updateItemQuery, conn);
                     updateCmd.Parameters.AddWithValue("@itemID", itemID);
                     updateCmd.ExecuteNonQuery();
-
-                    // Commit transaction
-                    transaction.Commit();
 
                     MessageBox.Show("Request submitted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -131,8 +124,6 @@ namespace SharedShelf.modals
                 }
                 catch (Exception ex)
                 {
-                    // Rollback transaction if error occurs
-                    transaction?.Rollback();
                     MessageBox.Show($"Error submitting request: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

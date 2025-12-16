@@ -49,7 +49,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(62, 129);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(890, 611);
+            this.panel1.Size = new System.Drawing.Size(898, 611);
             this.panel1.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -57,7 +57,7 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 117);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(828, 464);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(842, 464);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel2
@@ -69,7 +69,7 @@
             this.panel2.Controls.Add(this.search_tb);
             this.panel2.Location = new System.Drawing.Point(29, 25);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(828, 65);
+            this.panel2.Size = new System.Drawing.Size(842, 65);
             this.panel2.TabIndex = 0;
             // 
             // search_btn

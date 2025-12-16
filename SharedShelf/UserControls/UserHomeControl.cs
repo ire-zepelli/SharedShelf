@@ -16,6 +16,7 @@ namespace SharedShelf.UserControls
     {
         private string connectionString = "Server=DESKTOP-KU0OPCN\\SQLEXPRESS;Initial Catalog=SharedShelfDB;Integrated Security=True;";
         private int userId;
+        private string firstname;
         public UserHomeControl()
         {
             InitializeComponent();
@@ -26,11 +27,13 @@ namespace SharedShelf.UserControls
             if (user != null)   
             {
                 userId = user.user_id;
+                firstname = user.first_name;
                 LoadData();
             }
         }
 
         public void LoadData() {
+            label1.Text = "Welcome, " + firstname + "!";
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
@@ -50,6 +53,13 @@ namespace SharedShelf.UserControls
                 int requestCount = (int)cmd.ExecuteScalar();
                 request_label.Text = requestCount.ToString();
 
+                query = @"SELECT COUNT(*)
+                        FROM request r
+                        WHERE r.borrower_id = @userID AND status_id = 4";
+                cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@userID", userId);
+                int completedBorrow = (int)cmd.ExecuteScalar();
+                successful_label.Text = completedBorrow.ToString();
             }
         }
 
@@ -67,7 +77,8 @@ namespace SharedShelf.UserControls
 
         private void history_btn_Click(object sender, EventArgs e)
         {
-            new HistoryForm().ShowDialog(this);
+            new HistoryForm(userId).ShowDialog(this);
+            LoadData();
         }
 
         private void UserHomeControl_Load(object sender, EventArgs e)

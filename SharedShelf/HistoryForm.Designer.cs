@@ -32,10 +32,6 @@
             this.label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.historyControl1 = new SharedShelf.UserControls.HistoryControl();
-            this.historyControl2 = new SharedShelf.UserControls.HistoryControl();
-            this.historyControl3 = new SharedShelf.UserControls.HistoryControl();
-            this.historyControl4 = new SharedShelf.UserControls.HistoryControl();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,34 +66,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(576, 422);
             this.flowLayoutPanel1.TabIndex = 14;
-            // 
-            // historyControl1
-            // 
-            this.historyControl1.Location = new System.Drawing.Point(3, 3);
-            this.historyControl1.Name = "historyControl1";
-            this.historyControl1.Size = new System.Drawing.Size(568, 80);
-            this.historyControl1.TabIndex = 0;
-            // 
-            // historyControl2
-            // 
-            this.historyControl2.Location = new System.Drawing.Point(3, 89);
-            this.historyControl2.Name = "historyControl2";
-            this.historyControl2.Size = new System.Drawing.Size(568, 80);
-            this.historyControl2.TabIndex = 1;
-            // 
-            // historyControl3
-            // 
-            this.historyControl3.Location = new System.Drawing.Point(3, 175);
-            this.historyControl3.Name = "historyControl3";
-            this.historyControl3.Size = new System.Drawing.Size(568, 80);
-            this.historyControl3.TabIndex = 2;
-            // 
-            // historyControl4
-            // 
-            this.historyControl4.Location = new System.Drawing.Point(3, 261);
-            this.historyControl4.Name = "historyControl4";
-            this.historyControl4.Size = new System.Drawing.Size(568, 80);
-            this.historyControl4.TabIndex = 3;
             // 
             // HistoryForm
             // 

@@ -32,7 +32,6 @@ namespace SharedShelf.UserControls
 
         public void LoadData()
         {
-            MessageBox.Show("Loading data for user ID: " + userId);
             flowLayoutPanel1.Controls.Clear();
 
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -95,7 +94,7 @@ namespace SharedShelf.UserControls
                     adapter.SelectCommand.Parameters.AddWithValue("@searchTerm", "%" + search_tb.Text.Trim() + "%");
                 }
 
-                if (filter_box.Text != "All")
+                if (filter_box.Text != "All") 
                 {
                     // SelectedIndex 0 = "All", so subtract 1 to skip it
                     // SelectedIndex 1 = "Household Items" = category_id 1

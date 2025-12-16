@@ -68,9 +68,9 @@
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(39, 122);
+            this.panel2.Location = new System.Drawing.Point(39, 100);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(867, 306);
+            this.panel2.Size = new System.Drawing.Size(867, 328);
             this.panel2.TabIndex = 16;
             // 
             // total_user_panel
@@ -159,9 +159,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
             this.label4.Location = new System.Drawing.Point(14, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(198, 31);
+            this.label4.Size = new System.Drawing.Size(220, 31);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Successful Swaps";
+            this.label4.Text = "Successful Borrows";
             // 
             // successful_label
             // 
@@ -180,7 +180,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label6.Location = new System.Drawing.Point(41, 74);
+            this.label6.Location = new System.Drawing.Point(41, 66);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(406, 23);
             this.label6.TabIndex = 21;
@@ -250,7 +250,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(347, 689);
+            this.panel5.Location = new System.Drawing.Point(354, 689);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(261, 45);
             this.panel5.TabIndex = 27;
@@ -258,7 +258,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(645, 689);
+            this.panel6.Location = new System.Drawing.Point(649, 689);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(261, 45);
             this.panel6.TabIndex = 28;

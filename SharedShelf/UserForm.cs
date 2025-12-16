@@ -54,6 +54,7 @@ namespace SharedShelf
         private void setting_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 640);
+            this.userSettingsControl1.SetUserDetails(currentUser.first_name + " " + currentUser.last_name, currentUser.address, currentUser.contact );
             this.userSettingsControl1.BringToFront();
         }
 
