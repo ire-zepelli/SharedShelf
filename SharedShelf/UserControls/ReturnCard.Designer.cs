@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReturnCard));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.deny_btn = new System.Windows.Forms.Button();
+            this.return_btn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.duration_label = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.item_label = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.contact_label = new System.Windows.Forms.Label();
             this.address_label = new System.Windows.Forms.Label();
             this.name_label = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -46,13 +46,13 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.deny_btn);
+            this.panel1.Controls.Add(this.return_btn);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.duration_label);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.item_label);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.contact_label);
             this.panel1.Controls.Add(this.address_label);
             this.panel1.Controls.Add(this.name_label);
             this.panel1.Controls.Add(this.panel8);
@@ -61,18 +61,19 @@
             this.panel1.Size = new System.Drawing.Size(562, 123);
             this.panel1.TabIndex = 1;
             // 
-            // deny_btn
+            // return_btn
             // 
-            this.deny_btn.BackColor = System.Drawing.Color.Crimson;
-            this.deny_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deny_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.deny_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.deny_btn.Location = new System.Drawing.Point(441, 6);
-            this.deny_btn.Name = "deny_btn";
-            this.deny_btn.Size = new System.Drawing.Size(103, 29);
-            this.deny_btn.TabIndex = 24;
-            this.deny_btn.Text = "Return";
-            this.deny_btn.UseVisualStyleBackColor = false;
+            this.return_btn.BackColor = System.Drawing.Color.Crimson;
+            this.return_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.return_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.return_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.return_btn.Location = new System.Drawing.Point(441, 6);
+            this.return_btn.Name = "return_btn";
+            this.return_btn.Size = new System.Drawing.Size(103, 29);
+            this.return_btn.TabIndex = 24;
+            this.return_btn.Text = "Return";
+            this.return_btn.UseVisualStyleBackColor = false;
+            this.return_btn.Click += new System.EventHandler(this.return_btn_Click);
             // 
             // panel3
             // 
@@ -82,16 +83,16 @@
             this.panel3.Size = new System.Drawing.Size(98, 29);
             this.panel3.TabIndex = 25;
             // 
-            // label4
+            // duration_label
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label4.Location = new System.Drawing.Point(325, 73);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 23);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "12/12/12 - 12/13/12";
+            this.duration_label.AutoSize = true;
+            this.duration_label.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.duration_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.duration_label.Location = new System.Drawing.Point(325, 73);
+            this.duration_label.Name = "duration_label";
+            this.duration_label.Size = new System.Drawing.Size(163, 23);
+            this.duration_label.TabIndex = 21;
+            this.duration_label.Text = "12/12/12 - 12/13/12";
             // 
             // label5
             // 
@@ -104,16 +105,16 @@
             this.label5.TabIndex = 20;
             this.label5.Text = "On:";
             // 
-            // label3
+            // item_label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label3.Location = new System.Drawing.Point(121, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 23);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Harry Potter Book";
+            this.item_label.AutoSize = true;
+            this.item_label.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.item_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.item_label.Location = new System.Drawing.Point(121, 73);
+            this.item_label.Name = "item_label";
+            this.item_label.Size = new System.Drawing.Size(142, 23);
+            this.item_label.TabIndex = 19;
+            this.item_label.Text = "Harry Potter Book";
             // 
             // label2
             // 
@@ -126,16 +127,16 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Item:";
             // 
-            // label1
+            // contact_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
-            this.label1.Location = new System.Drawing.Point(66, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 17);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "09951420339";
+            this.contact_label.AutoSize = true;
+            this.contact_label.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contact_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(37)))), ((int)(((byte)(78)))));
+            this.contact_label.Location = new System.Drawing.Point(66, 21);
+            this.contact_label.Name = "contact_label";
+            this.contact_label.Size = new System.Drawing.Size(85, 17);
+            this.contact_label.TabIndex = 17;
+            this.contact_label.Text = "09951420339";
             // 
             // address_label
             // 
@@ -174,6 +175,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ReturnCard";
             this.Size = new System.Drawing.Size(568, 129);
+            this.Load += new System.EventHandler(this.ReturnCard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -183,13 +185,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button deny_btn;
+        private System.Windows.Forms.Button return_btn;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label duration_label;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label item_label;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label contact_label;
         private System.Windows.Forms.Label address_label;
         private System.Windows.Forms.Label name_label;
         private System.Windows.Forms.Panel panel8;

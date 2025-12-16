@@ -69,6 +69,7 @@ namespace SharedShelf.UserControls
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
                 dataGridView1.DataSource = dt;
+                dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
                 if (dt.Rows.Count > 0)
                 {

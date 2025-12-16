@@ -52,7 +52,7 @@ namespace SharedShelf.UserControls
                     DateTime datePosted = Convert.ToDateTime(row["date_posted"]);
                     bool isAvailable = Convert.ToBoolean(row["is_available"]);
 
-                    flowLayoutPanel1.Controls.Add(new ItemCardControl(itemId + "", itemName, description, categoryId + ""));
+                    flowLayoutPanel1.Controls.Add(new ItemCardControl(itemId + "", itemName, description, categoryId + "", isAvailable));
                 }
 
             }

@@ -30,19 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserBrowseControl));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.category_box = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.filter_btn = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.search_btn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.borrowCardControl1 = new SharedShelf.UserControls.BorrowCardControl();
-            this.borrowCardControl2 = new SharedShelf.UserControls.BorrowCardControl();
+            this.filter_box = new System.Windows.Forms.ComboBox();
+            this.search_tb = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,21 +45,62 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.filter_btn);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.category_box);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(62, 129);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(879, 611);
+            this.panel1.Size = new System.Drawing.Size(890, 611);
             this.panel1.TabIndex = 0;
             // 
-            // category_box
+            // flowLayoutPanel1
             // 
-            this.category_box.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.category_box.FormattingEnabled = true;
-            this.category_box.Items.AddRange(new object[] {
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 117);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(828, 464);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.search_btn);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.filter_box);
+            this.panel2.Controls.Add(this.search_tb);
+            this.panel2.Location = new System.Drawing.Point(29, 25);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(828, 65);
+            this.panel2.TabIndex = 0;
+            // 
+            // search_btn
+            // 
+            this.search_btn.BackColor = System.Drawing.Color.DodgerBlue;
+            this.search_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.search_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.search_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.search_btn.Image = ((System.Drawing.Image)(resources.GetObject("search_btn.Image")));
+            this.search_btn.Location = new System.Drawing.Point(717, 14);
+            this.search_btn.Name = "search_btn";
+            this.search_btn.Size = new System.Drawing.Size(90, 29);
+            this.search_btn.TabIndex = 55;
+            this.search_btn.Text = "Search";
+            this.search_btn.UseVisualStyleBackColor = false;
+            this.search_btn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel5.Location = new System.Drawing.Point(723, 18);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(88, 29);
+            this.panel5.TabIndex = 56;
+            // 
+            // filter_box
+            // 
+            this.filter_box.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filter_box.FormattingEnabled = true;
+            this.filter_box.Items.AddRange(new object[] {
+            "All",
             "Household Items",
             "Tools & Equipment",
             "Electronics",
@@ -75,41 +111,20 @@
             "Hobbies & Crafts",
             "Sports & Outdoor",
             "Miscellaneous"});
-            this.category_box.Location = new System.Drawing.Point(29, 100);
-            this.category_box.Name = "category_box";
-            this.category_box.Size = new System.Drawing.Size(160, 28);
-            this.category_box.TabIndex = 41;
-            this.category_box.Text = "Filter Category";
+            this.filter_box.Location = new System.Drawing.Point(577, 15);
+            this.filter_box.Name = "filter_box";
+            this.filter_box.Size = new System.Drawing.Size(134, 28);
+            this.filter_box.TabIndex = 41;
+            this.filter_box.Text = "All";
             // 
-            // flowLayoutPanel1
+            // search_tb
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.borrowCardControl1);
-            this.flowLayoutPanel1.Controls.Add(this.borrowCardControl2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 135);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(826, 446);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Location = new System.Drawing.Point(29, 25);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(826, 65);
-            this.panel2.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(14, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(699, 47);
-            this.textBox1.TabIndex = 0;
+            this.search_tb.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.search_tb.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_tb.Location = new System.Drawing.Point(14, 9);
+            this.search_tb.Name = "search_tb";
+            this.search_tb.Size = new System.Drawing.Size(552, 47);
+            this.search_tb.TabIndex = 0;
             // 
             // label1
             // 
@@ -122,65 +137,6 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Browse";
             // 
-            // filter_btn
-            // 
-            this.filter_btn.BackColor = System.Drawing.Color.DodgerBlue;
-            this.filter_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.filter_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.filter_btn.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.filter_btn.Location = new System.Drawing.Point(201, 96);
-            this.filter_btn.Name = "filter_btn";
-            this.filter_btn.Size = new System.Drawing.Size(90, 29);
-            this.filter_btn.TabIndex = 53;
-            this.filter_btn.Text = "Filter";
-            this.filter_btn.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(207, 100);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(88, 29);
-            this.panel4.TabIndex = 54;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(719, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 29);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel5.Location = new System.Drawing.Point(725, 18);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(88, 29);
-            this.panel5.TabIndex = 56;
-            // 
-            // borrowCardControl1
-            // 
-            this.borrowCardControl1.BackColor = System.Drawing.Color.White;
-            this.borrowCardControl1.Location = new System.Drawing.Point(3, 3);
-            this.borrowCardControl1.Name = "borrowCardControl1";
-            this.borrowCardControl1.Size = new System.Drawing.Size(809, 144);
-            this.borrowCardControl1.TabIndex = 0;
-            // 
-            // borrowCardControl2
-            // 
-            this.borrowCardControl2.BackColor = System.Drawing.Color.White;
-            this.borrowCardControl2.Location = new System.Drawing.Point(3, 153);
-            this.borrowCardControl2.Name = "borrowCardControl2";
-            this.borrowCardControl2.Size = new System.Drawing.Size(809, 144);
-            this.borrowCardControl2.TabIndex = 1;
-            // 
             // UserBrowseControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -188,10 +144,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "UserBrowseControl";
-            this.Size = new System.Drawing.Size(963, 811);
+            this.Size = new System.Drawing.Size(979, 811);
             this.Load += new System.EventHandler(this.UserBrowseControl_Load);
             this.panel1.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -204,14 +159,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox search_tb;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.ComboBox category_box;
-        private BorrowCardControl borrowCardControl1;
-        private BorrowCardControl borrowCardControl2;
-        private System.Windows.Forms.Button filter_btn;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox filter_box;
+        private System.Windows.Forms.Button search_btn;
         private System.Windows.Forms.Panel panel5;
     }
 }

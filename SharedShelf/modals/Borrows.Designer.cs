@@ -32,8 +32,6 @@
             this.label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.returnCard1 = new SharedShelf.UserControls.ReturnCard();
-            this.returnCard2 = new SharedShelf.UserControls.ReturnCard();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,26 +58,10 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel1.Controls.Add(this.returnCard1);
-            this.flowLayoutPanel1.Controls.Add(this.returnCard2);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(25, 154);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(576, 422);
             this.flowLayoutPanel1.TabIndex = 12;
-            // 
-            // returnCard1
-            // 
-            this.returnCard1.Location = new System.Drawing.Point(3, 3);
-            this.returnCard1.Name = "returnCard1";
-            this.returnCard1.Size = new System.Drawing.Size(568, 129);
-            this.returnCard1.TabIndex = 0;
-            // 
-            // returnCard2
-            // 
-            this.returnCard2.Location = new System.Drawing.Point(3, 138);
-            this.returnCard2.Name = "returnCard2";
-            this.returnCard2.Size = new System.Drawing.Size(568, 129);
-            this.returnCard2.TabIndex = 1;
             // 
             // Borrows
             // 
@@ -103,7 +85,5 @@
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private UserControls.ReturnCard returnCard1;
-        private UserControls.ReturnCard returnCard2;
     }
 }

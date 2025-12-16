@@ -43,7 +43,7 @@ namespace SharedShelf.UserControls
                 query = @"SELECT COUNT(*) 
                         FROM request r
                         INNER JOIN items i ON r.item_id = i.item_id
-                        WHERE i.owner_id = @userID";
+                        WHERE i.owner_id = @userID AND status_id = 1";
 
                 cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@userID", userId);
@@ -61,7 +61,7 @@ namespace SharedShelf.UserControls
 
         private void requests_btn_Click(object sender, EventArgs e)
         {
-            new RequestsForm().ShowDialog();
+            new RequestsForm(userId).ShowDialog();
             LoadData();
         }
 

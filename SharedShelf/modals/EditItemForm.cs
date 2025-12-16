@@ -64,5 +64,10 @@ namespace SharedShelf.modals
 
             return category_box.Items.IndexOf(category_name) + 1;
         }
+
+        private void EditItemForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

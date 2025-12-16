@@ -22,21 +22,36 @@ namespace SharedShelf.UserControls
         private string title;
         private string description;
         private string category;
+        private bool status;
 
-        public ItemCardControl(string id, string title, string desc, string category)
+        public ItemCardControl(string id, string title, string desc, string category, bool status)
         {
             InitializeComponent();
             this.item_id = id;
             this.title = title;
             this.description = desc;
             this.category = category;
-            LoadData(title, desc, category);
+            this.status = status;
+            LoadData(title, desc, category, status);
         }
 
-        public void LoadData(string title, string desc,string category) { 
+        public void LoadData(string title, string desc,string category, bool status) { 
             title_label.Text = title;
             description_label.Text = desc;
             category_label.Text = toStringCategory(category);
+            status_label.Text = status ? "✪ Available" : "✪ Unavailable";
+
+            if (status)
+            {
+                status_label.ForeColor = Color.Green;
+            }
+            else { 
+                status_label.ForeColor = Color.Red;
+                delete_btn.Enabled = false;
+                delete_btn.BackColor = Color.Gray;
+                edit_btn.Enabled = false;
+                edit_btn.BackColor = Color.Gray;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -132,5 +147,9 @@ namespace SharedShelf.UserControls
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

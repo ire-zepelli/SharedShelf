@@ -50,8 +50,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.userHomeControl2 = new SharedShelf.UserControls.UserHomeControl();
             this.userSelfControl1 = new SharedShelf.UserControls.UserSelfControl();
-            this.userBrowseControl1 = new SharedShelf.UserControls.UserBrowseControl();
             this.userSettingsControl1 = new SharedShelf.UserControls.UserSettingsControl();
+            this.userBrowseControl1 = new SharedShelf.UserControls.UserBrowseControl();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -272,6 +272,7 @@
             this.userHomeControl2.Name = "userHomeControl2";
             this.userHomeControl2.Size = new System.Drawing.Size(963, 811);
             this.userHomeControl2.TabIndex = 5;
+            this.userHomeControl2.Load += new System.EventHandler(this.userHomeControl2_Load);
             // 
             // userSelfControl1
             // 
@@ -281,14 +282,6 @@
             this.userSelfControl1.Size = new System.Drawing.Size(996, 811);
             this.userSelfControl1.TabIndex = 0;
             // 
-            // userBrowseControl1
-            // 
-            this.userBrowseControl1.BackColor = System.Drawing.Color.White;
-            this.userBrowseControl1.Location = new System.Drawing.Point(350, 0);
-            this.userBrowseControl1.Name = "userBrowseControl1";
-            this.userBrowseControl1.Size = new System.Drawing.Size(963, 811);
-            this.userBrowseControl1.TabIndex = 3;
-            // 
             // userSettingsControl1
             // 
             this.userSettingsControl1.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -296,6 +289,14 @@
             this.userSettingsControl1.Name = "userSettingsControl1";
             this.userSettingsControl1.Size = new System.Drawing.Size(963, 811);
             this.userSettingsControl1.TabIndex = 6;
+            // 
+            // userBrowseControl1
+            // 
+            this.userBrowseControl1.BackColor = System.Drawing.Color.White;
+            this.userBrowseControl1.Location = new System.Drawing.Point(350, 0);
+            this.userBrowseControl1.Name = "userBrowseControl1";
+            this.userBrowseControl1.Size = new System.Drawing.Size(963, 811);
+            this.userBrowseControl1.TabIndex = 3;
             // 
             // UserForm
             // 

@@ -21,6 +21,7 @@ namespace SharedShelf
 
             this.userHomeControl2.SetUser(user);
             this.userSelfControl1.SetUser(user);
+            this.userBrowseControl1.SetUser(user);
         }
 
 
@@ -32,18 +33,21 @@ namespace SharedShelf
         private void home_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 141);
+            this.userHomeControl2.LoadData();
             this.userHomeControl2.BringToFront();
         }
 
         private void shelf_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 228);
+            this.userSelfControl1.LoadData();
             this.userSelfControl1.BringToFront();
         }
 
         private void browse_onClick(object sender, EventArgs e)
         {
             selected_panel.Location = new Point(24, 314);
+            this.userBrowseControl1.LoadData();
             this.userBrowseControl1.BringToFront();
         }
 
@@ -67,6 +71,11 @@ namespace SharedShelf
         }
 
         private void UserForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userHomeControl2_Load(object sender, EventArgs e)
         {
 
         }

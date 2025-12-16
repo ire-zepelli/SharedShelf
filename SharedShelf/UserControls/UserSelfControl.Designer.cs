@@ -49,9 +49,10 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 132);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(891, 625);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(925, 625);
             this.flowLayoutPanel1.TabIndex = 18;
             // 
             // add_btn
@@ -109,7 +110,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Name = "UserSelfControl";
-            this.Size = new System.Drawing.Size(963, 811);
+            this.Size = new System.Drawing.Size(997, 811);
             this.Load += new System.EventHandler(this.UserSelfControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
